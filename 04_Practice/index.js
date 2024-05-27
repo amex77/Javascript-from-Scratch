@@ -38,7 +38,7 @@ const data = {
 
 //try to add a new key to the const object in problem 3 were you able to do it
 
-data['name'] = "ElonMusk";
+data ['name'] = "ElonMusk";
 console.log(data)
 
 //write a js program to create a word meaning dictionary of 5 words
