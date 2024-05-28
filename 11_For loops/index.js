@@ -31,7 +31,7 @@ console.log(fact);
 
 /* /*let is block scoped wheras as var is global scoped
 for example in the above code variable x is assigned as let if we'll try 
-to print the value of x outside of the loop that'll be invalid because the 
+to print the value of x outside of the loop that'll caused an error because the 
 scope of x starts and ends in the loop whereas
 if we would've used var they'll be no syntax error in that and the value would've printed
 as it is global scoped */
