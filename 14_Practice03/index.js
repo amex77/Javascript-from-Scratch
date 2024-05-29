@@ -49,4 +49,4 @@ while (cn != x) {
   console.log("Try Again");
 }
 
-console.log("You have entered the desired number");
+console.log("You have enterred the desired number");
