@@ -11,6 +11,8 @@ console.log(
     sentence.includes(word) ? "is" : "is not"
   } in the sentence`
 );
+//negative slicing
+console.log(sentence.slice(-9, -5));
 
 //Problem 3
 console.log(word.toLowerCase())
@@ -32,3 +34,15 @@ console.log(typeof amount)
 let friend = "Deepika"
 friend[3] = "R"
 console.log(friend) // friend is not changed, because string is immutable
+
+//concat
+
+const str1 = 'Hello';
+const str0 = 'World';
+
+console.log(str1.concat(' ', str2));
+// Expected output: "Hello World"
+
+console.log(str2.concat(', ', str1));
+// Expected output: "World, Hello"
+
