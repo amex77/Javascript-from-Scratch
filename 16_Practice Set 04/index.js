@@ -17,9 +17,15 @@ console.log(word.toLowerCase())
 console.log(word.toUpperCase())
 
 // Problem 4
-let str2 = "Please give Rs 1000"
+/* let str2 = "Please give Rs 1000"
 let amount = Number.parseInt(str2.slice(15))
 console.log(amount)
+console.log(typeof amount) */
+
+// Problem 4 method 2
+let str2 = "Please give Rs 1000"
+let amount = Number.parseInt("Please give Rs ".length)
+console.log(str2.slice(amount))
 console.log(typeof amount)
 
 // Problem 5
