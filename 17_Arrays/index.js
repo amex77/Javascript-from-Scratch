@@ -12,6 +12,8 @@ marks_class_12[0] = 96 // Changing the value of an array
 console.log(marks_class_12)
 console.log(typeof marks_class_12)
 
+//In javascript arrays are type of objects
+
 //printing values using for loop
 
 for( let i=0; i<=(marks_class_12.length);i++ ){
