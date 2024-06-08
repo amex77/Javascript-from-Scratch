@@ -23,3 +23,9 @@ console.log(num, p);
 let r = num.unshift(78)
 console.log(r, num)
 console.log(r)
+
+//includes function
+const array1 = [1, 2, 3];
+
+console.log(array1.includes(2));
+// Expected output: true
